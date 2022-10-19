@@ -16,7 +16,7 @@ class MainKtTest {
     // act
         var result = calcCommission(amount, previousAmount, case)
     // assert
-        assertEquals(-1.0,result, 0.01)
+        assertEquals(-10.0,result, 0.01)
     }
 
     @Test
@@ -40,7 +40,7 @@ class MainKtTest {
     // act
         var result = calcCommission(amount, previousAmount, case)
     // assert
-        assertEquals(620.00,result, 0.01)
+        assertEquals(640.00,result, 0.01)
     }
 
     @Test
